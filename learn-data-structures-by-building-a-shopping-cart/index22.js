@@ -56,7 +56,7 @@ class ShoppingCart {
   }
   
   calculateTaxes(amount) {
-    return parseFloat(this.taxRate / 100 * amount).toFixed(2));
+    return parseFloat(this.taxRate / 100 * amount).toFixed(2);
   }
   
   setDiscountPercentage(percentage) {
@@ -69,9 +69,9 @@ class ShoppingCart {
 }
 
 /*
-Great! let's make similar methods for our taxRate to make it more flexible.
+Great! let's make similar methods for our `taxRate` to make it more flexible.
 
-Create setTaxRate method that will take taxRate as its parameter and set our taxRate state to the new value.
+Create a `setTaxRate` method that will take `taxRate` as its parameter and set our `taxRate` state to the new value.
 
-Also create getTaxRate method that will simply return current taxRate.
+Also create `getTaxRate` method that will simply return the current `taxRate`.
 */
